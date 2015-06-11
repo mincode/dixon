@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2015" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties elisiondigitsbefore="100" labelling="true" indentamount="4" elisiontermsthreshold="10000" ansi="false" errorbreak="1" useclientjvm="true" echo="1" imaginaryunit="I" labelwidth="20" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" contextmenusize="automatic" plotdriver="opengl" elisiondigitsafter="100" plotoutput="terminal" helpbrowser="standard" rtablesize="10" elisiontermsbefore="100" elisiondigitsthreshold="10000" typesetting="standard" plotdevice="inline" verboseproc="1" showassumed="1" quiet="false" errorcursor="false" longdelim="true" plotoptions="" elisiontermsafter="100" screenwidth="79" preplot="" prettyprint="3" displayprecision="-1" screenpixelheight="1200" warnlevel="3" screenheight="25" latexwidth="8.0" postplot="" prompt="&gt; " ShowLabels="true"/>
+<Styles>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Maple Name" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[104,64,92]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Menus" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Fixed Width" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Nonterminal" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Heading" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle10" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Variable" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Italic Bold" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Default" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Italic" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math Bold Small" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Page Number" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Output Labels" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="8" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Plot Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Emphasized" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Symbol 2" background="[255,255,255]" bold="false" executable="false" family="SymbolPi" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Comment" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle18" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle15" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="_cstyle14" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle17" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="9" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[64,128,64]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle12" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_cstyle13" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math Italic Small" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="1" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Comment" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Underlined Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Copyright" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Help Underlined" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Prompt" background="[255,255,255]" bold="true" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle12" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle11" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="_pstyle13" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Notes" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Bold" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="LaTeX" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Popup" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Left Justified Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Help Fixed" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Fixed Width" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Help" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle10" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle12" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle11" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="_pstyle13" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Left Justified Maple Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="_cstyle12" layout="_pstyle10">Introduction to the DR (Dixon Resultant) Package</Text-field>
+<Text-field style="_cstyle13" layout="_pstyle11">(C) 2015 Manfred Minimair</Text-field>
+<Text-field style="_pstyle12" layout="_pstyle12"></Text-field>
+<Text-field style="_cstyle14" layout="_pstyle12">Description</Text-field>
+<Text-field style="_pstyle12" layout="_pstyle12"><Font style="_cstyle15">This package provides the function DixonResultant which computes the Dixon projection of a list of multivariate polynomials. The function implements Kapur/Saxena/Yang's approach (see D. Kapur, T. Saxena, L. Yang, </Font><Font style="Text" italic="true">Algebraic and Geometric Reasoning Using Dixon Resultants</Font><Font style="_cstyle15">. International Symposium on Symbolic and Algebraic Computation (ISSAC), July 1994, Oxford University, England).</Font></Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="_cstyle14" layout="_pstyle12">Calling Sequence</Text-field>
+<Text-field style="_cstyle17" layout="_pstyle13">DR:-DixonResultant(polylist, varlist)</Text-field>
+<Text-field style="_cstyle14" size="12" layout="_pstyle12"><Font bold="false" size="12">Additional features of the package DR are shown below.</Font><Font size="12">
+
+</Font><Font size="14">Parameters</Font></Text-field>
+<Text-field style="_cstyle17" layout="_pstyle13">polylist     - list of (multivariate) polynomials</Text-field>
+<Text-field style="_cstyle17" layout="_pstyle13">varlist       - list of variables of the polynomials in polylist</Text-field>
+<Text-field style="_pstyle12" layout="_pstyle12"></Text-field>
+<Text-field style="Normal" layout="Normal">infolevel[DR] := 2;</Text-field>
+<Text-field style="Normal" layout="Normal">causes the package to print some progress information for the computation</Text-field>
+<Text-field style="Normal" layout="Normal"></Text-field>
+<Text-field style="Normal" layout="Normal"><Font style="_cstyle14">How to cite the package</Font></Text-field>
+<Text-field style="Normal" layout="Normal"><Font underline="true">BibTeX entry</Font></Text-field>
+<Text-field style="Normal" layout="Normal">@Misc{minimair15:_dr,</Text-field>
+<Text-field style="Normal" layout="Normal">  author =	 {M. Minimair},</Text-field>
+<Text-field style="Normal" layout="Normal">  title =	 {DR: Dixon Resultant Package for Maple},</Text-field>
+<Text-field style="Normal" layout="Normal">  howpublished = {http://minimair.org/dr},</Text-field>
+<Text-field style="Normal" layout="Normal">  year =	 2015</Text-field>
+<Text-field style="Normal" layout="Normal">}</Text-field>
+<Text-field style="_pstyle12" layout="_pstyle12"></Text-field>
+<Text-field style="_cstyle14" layout="_pstyle12">Examples</Text-field>
+</Input>
+</Group>
+<Group labelreference="L14" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbW9HRiQ2L1ElcmVhZEYnLyUlYm9sZEdRJXRydWVGJy8lLG1hdGh2YXJpYW50R1ElYm9sZEYnLyUrZm9udHdlaWdodEdGNC8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGOS8lKXN0cmV0Y2h5R0Y5LyUqc3ltbWV0cmljR0Y5LyUobGFyZ2VvcEdGOS8lLm1vdmFibGVsaW1pdHNHRjkvJSdhY2NlbnRHRjkvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZILUYsNi1RIn5GJy9GM1Enbm9ybWFsRidGN0Y6RjxGPkZARkJGREZGRkktSSNtc0dGJDYjUSdkci5tcGxGJy1JI21pR0YkNiNRIUYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2V4ZWN1dGFibGVHRjlGTg==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbW9HRiQ2L1ElcmVhZEYnLyUlYm9sZEdRJXRydWVGJy8lLG1hdGh2YXJpYW50R1ElYm9sZEYnLyUrZm9udHdlaWdodEdGNC8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGOS8lKXN0cmV0Y2h5R0Y5LyUqc3ltbWV0cmljR0Y5LyUobGFyZ2VvcEdGOS8lLm1vdmFibGVsaW1pdHNHRjkvJSdhY2NlbnRHRjkvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZILUYsNi1RIn5GJy9GM1Enbm9ybWFsRidGN0Y6RjxGPkZARkJGREZGRkktSSNtc0dGJDYjUSdkci5tcGxGJy1JI21pR0YkNiNRIUYn</Equation></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjRFJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiotRjY2L1EnbW9kdWxlRicvJSVib2xkR0YxL0YzUSVib2xkRicvJStmb250d2VpZ2h0R0ZXRjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZW4tSShtZmVuY2VkR0YkNiQtRiM2JS1GLDYjUSFGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOUY5LUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHUSYwLjVlbUYnLyUmZGVwdGhHRmdvLyUqbGluZWJyZWFrR1ExZmlyc3Rwcm9jbmV3bGluZUYnLUY2Ni1RJC4uLkYnRjlGO0Y+RkBGQkZERkZGSC9GS1EsMC4yMjIyMjIyZW1GJ0Zmbi1GY282JkZlb0Zob0ZbcC9GXnBRNmRlY3JlYXNlaW5kZW50bmV3bGluZUYnLUY2Ni9RK2VuZH5tb2R1bGVGJ0ZURlZGWEY7Rj5GQEZCRkRGRkZIRlpGZm5GX29GOUZfb0Y5">YDYtSS9EaXhvblJlc3VsdGFudEc2Iy9JJ19sb2NhbEclKnByb3RlY3RlZEdJLF9uNTM3ODU1MjcyRzYiSTBEaXhvblBvbHlub21pYWxHNiMvRidJLF9uNTM3ODU1MjMyR0YqSSxEaXhvbk1hdHJpeEc2Iy9GJ0ksX241Mzc4NTUxOTJHRipJLlJhbmtTdWJNYXRyaXhHNiMvRidJLF9uNTM3ODU1MTUyR0YqSS1EaXhvbkV4dHJhY3RHNiMvRidJLF9uNTM3ODU1MTEyR0YqSSVJbmZvRzYjL0YnSSxfbjUzODI1MTEwNEdGKkkoRXh0cmFjdEc2Iy9GJ0ksX241MzgyNTEwNzJHRipJJEVERkc2Iy9GJ0ksX241MzgyNTEwNDBHRipJJURSZXNHNiMvRidJLF9uNTM4MjUxMDA4R0YqSShHZW5Qb2x5RzYjL0YnSSxfbjUzODI1MDk3NkdGKkkoU2FtcGxlc0c2Iy9GJ0ksX241MzgyNTA5NDRHRipJLF9tNTM4MjUxMTM2R0YqNiRJLk1vbm9taWFsQ29lZmZHNiMvRidJLF9uNTM3ODU1MDcyR0YqSTNQb2x5bm9taWFsVG9NYXRyaXhHNiMvRidJLF9uNTM4NDQyNzUyR0Yq</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L18" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal">The subpackage DR:-Samples contains sample polynomial systems.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L15" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY+LUkjbWlHRiQ2JVEoc3lzbmFtZUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIixGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRjY2LVEifkYnRjlGOy9GP0Y9RkBGQkZERkZGSEZKL0ZORkwtRiw2JVEiZkYnRi9GMkY1RlAtRiw2JVElZGVnc0YnRi9GMkY1RlAtRiw2JVEldmFyc0YnRi9GMkY1RlAtRiw2JVEpcGFyYW1kZWdGJ0YvRjJGNUZQLUYsNiVRJ3BhcmFtc0YnRi9GMkZQLUY2Ni1RKiZjb2xvbmVxO0YnRjlGO0ZTRkBGQkZERkZGSC9GS1EsMC4yNzc3Nzc4ZW1GJy9GTkZib0ZQLUYsNiVRI0RSRidGL0YyLUY2Ni1RIzotRidGOUY7RlNGQEZCRkRGRkZIRkpGVC1GLDYlUShTYW1wbGVzRidGL0YyRmdvLUYsNiVRJEdldEYnRi9GMi1JKG1mZW5jZWRHRiQ2JC1GIzYoLUYsNiNRIUYnLUkjbXNHRiQ2I1EoRW5uZXBlckYnRmVwLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2V4ZWN1dGFibGVHRj1GOUY5RlxxRl9xRjk=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzY7LUkjbWlHRiQ2JVEoc3lzbmFtZUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RIixGJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRjY2LVEifkYnRjlGOy9GP0Y9RkBGQkZERkZGSEZKL0ZORkwtRiw2JVEiZkYnRi9GMkY1RlAtRiw2JVElZGVnc0YnRi9GMkY1RlAtRiw2JVEldmFyc0YnRi9GMkY1RlAtRiw2JVEpcGFyYW1kZWdGJ0YvRjJGNUZQLUYsNiVRJ3BhcmFtc0YnRi9GMkZQLUY2Ni1RKiZjb2xvbmVxO0YnRjlGO0ZTRkBGQkZERkZGSC9GS1EsMC4yNzc3Nzc4ZW1GJy9GTkZib0ZQLUYsNiVRI0RSRidGL0YyLUY2Ni1RIzotRidGOUY7RlNGQEZCRkRGRkZIRkpGVC1GLDYlUShTYW1wbGVzRidGL0YyRmdvLUYsNiVRJEdldEYnRi9GMi1JKG1mZW5jZWRHRiQ2JC1GIzYlLUYsNiNRIUYnLUkjbXNHRiQ2I1EoRW5uZXBlckYnRmVwRjk=</Equation></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUYjNi8tSSNtaUdGJDYlUShzeXNuYW1lRicvJSdpdGFsaWNHUSV0cnVlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LVEiLEYnL0Y1USdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGMy8lKXN0cmV0Y2h5R0Y/LyUqc3ltbWV0cmljR0Y/LyUobGFyZ2VvcEdGPy8lLm1vdmFibGVsaW1pdHNHRj8vJSdhY2NlbnRHRj8vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLjYlUSJmRidGMUY0RjctRi42JVElZGVnc0YnRjFGNEY3LUYuNiVRJXZhcnNGJ0YxRjRGNy1GLjYlUSlwYXJhbWRlZ0YnRjFGNEY3LUYuNiVRJ3BhcmFtc0YnRjFGNC8lK2ZvcmVncm91bmRHUShbMCwwLDBdRidGOy1GODYtUSM6PUYnRjtGPS9GQUY/RkJGREZGRkhGSi9GTVEsMC4yNzc3Nzc4ZW1GJy9GUEZjby1GIzYvLUkjbXNHRiQ2I1EoRW5uZXBlckYnRjctSShtZmVuY2VkR0YkNiYtRiM2KS1GIzYrLUY4Ni1RKiZ1bWludXMwO0YnRjtGPUZhb0ZCRkRGRkZIRkovRk1RLDAuMjIyMjIyMmVtRicvRlBGZnAtRiM2JC1JJW1zdXBHRiQ2JS1GLjYlUSR2c3NGJ0YxRjQtSSNtbkdGJDYkUSIzRidGOy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGOy1GODYtUSIrRidGO0Y9RmFvRkJGREZGRkhGSkZlcEZncC1GIzYoRmBxLUY4Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y7Rj1GYW9GQkZERkZGSEZKRkwvRlBGTkZdcUZcci1GW3E2JS1GLjYlUSR2dHRGJ0YxRjQtRmFxNiRRIjJGJ0Y7RmRxRjtGZ3EtRiM2JkZgcUZcckZdcUY7LUY4Ni1RKCZtaW51cztGJ0Y7Rj1GYW9GQkZERkZGSEZKRmVwRmdwLUYjNiZGYHFGXHItRi42JVEieEYnRjFGNEY7RjtGNy1GIzYrRmJwLUYjNihGYHFGXHItRltxNiVGXXFGZXJGZHFGXHJGYnJGO0ZncS1GIzYkLUZbcTYlRmJyRmBxRmRxRjtGanItRiM2JkZgcUZcckZickY7RmpyLUYjNiZGYHFGXHItRi42JVEieUYnRjFGNEY7RjtGNy1GIzYoLUYjNiRGZnNGO0Zqci1GIzYkRmByRjtGanItRi42JVEiekYnRjFGNEY7RltvRjtGOy8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJ0Y3LUZccDYmLUYjNilGYHFGN0ZgcUY3RmVyRltvRjtGO0ZcdUZfdUY3LUZccDYmLUYjNidGXXFGN0ZickZbb0Y7RjtGXHVGX3VGNy1GYXE2JFEiMUYnRjtGNy1GXHA2Ji1GIzYpRl9zRjdGYHRGN0ZpdEZbb0Y7RjtGXHVGX3VGW29GO0Zbb0Y7">NihRKEVubmVwZXI2IjclLCoqJClJJHZzc0dGJCIiJCIiIiEiIiooRipGK0YpRispSSR2dHRHRiQiIiNGK0YrKiZGKkYrRilGK0YrKiZGKkYrSSJ4R0YkRitGLCwqKihGKkYrKUYpRjBGK0YvRitGLCokKUYvRipGK0YrKiZGKkYrRi9GK0YsKiZGKkYrSSJ5R0YkRitGLCwoKiRGNkYrRisqJEYuRitGLEkiekdGJEYsNyVGKkYqRjA3JEYpRi9GKzclRjNGO0Y/</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L19" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal">Compute the Dixon resultant.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L16" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JVEjRFJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6LUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMLUYsNiVRL0RpeG9uUmVzdWx0YW50RidGL0YyLUkobWZlbmNlZEdGJDYkLUYjNiktRiw2JVEiZkYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRkovRk5RLDAuMzMzMzMzM2VtRictRjY2LVEifkYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRiw2JVEldmFyc0YnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJStleGVjdXRhYmxlR0Y9RjlGOUZgb0Zjb0Y5">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjRFJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6LUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMLUYsNiVRL0RpeG9uUmVzdWx0YW50RidGL0YyLUkobWZlbmNlZEdGJDYkLUYjNiYtRiw2JVEiZkYnRi9GMi1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIRkovRk5RLDAuMzMzMzMzM2VtRictRjY2LVEifkYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRiw2JVEldmFyc0YnRi9GMkY5</Equation></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzZQLUYjNiYtSSNtbkdGJDYkUSYzNjg2NEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1JI21vR0YkNi1RMSZJbnZpc2libGVUaW1lcztGJ0YxLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y6LyUpc3RyZXRjaHlHRjovJSpzeW1tZXRyaWNHRjovJShsYXJnZW9wR0Y6LyUubW92YWJsZWxpbWl0c0dGOi8lJ2FjY2VudEdGOi8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkktSSVtc3VwR0YkNiUtSSNtaUdGJDYlUSJ6RicvJSdpdGFsaWNHUSV0cnVlRicvRjJRJ2l0YWxpY0YnLUYuNiRRIjlGJ0YxLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0YxLUY1Ni1RKCZtaW51cztGJ0YxRjhGO0Y9Rj9GQUZDRkUvRkhRLDAuMjIyMjIyMmVtRicvRktGXG8tRiM2KC1GLjYkUScyNDg4MzJGJ0YxRjQtRk02JS1GUDYlUSJ4RidGU0ZWLUYuNiRRIjJGJ0YxRmVuRjQtRk02JUZPLUYuNiRRIjZGJ0YxRmVuRjEtRjU2LVEiK0YnRjFGOEY7Rj1GP0ZBRkNGRUZbb0Zdby1GIzYoRmBvRjQtRk02JS1GUDYlUSJ5RidGU0ZWRmhvRmVuRjRGW3BGMUZobi1GIzYoLUYuNiRRJzY5OTg0MEYnRjFGNC1GTTYlRmVvLUYuNiRRIjRGJ0YxRmVuRjQtRk02JUZPLUYuNiRRIjNGJ0YxRmVuRjFGaG4tRiM2Ki1GLjYkUSgzNjM5MTY4RidGMUY0RmNvRjRGZXBGNEZkcUYxRmhuLUYjNigtRi42JFEoMjIzOTQ4OEYnRjFGNEZjb0Y0LUZNNiVGTy1GLjYkUSI1RidGMUZlbkYxRmhuLUYjNihGXHFGNC1GTTYlRmdwRmFxRmVuRjRGZHFGMUZobi1GIzYoRmByRjRGZXBGNEZjckYxRmhuLUYjNiYtRi42JFEnNjYzNTUyRidGMUY0LUZNNiVGTy1GLjYkUSI3RidGMUZlbkYxRmhuLUYjNiYtRi42JFEnNDE5OTA0RidGMUY0LUZNNiVGZW9GXXBGZW5GMUZgcC1GIzYoLUYuNiRRKDEyNTk3MTJGJ0YxRjRGX3FGNEZlcEYxRmhuLUYjNigtRi42JFEoMjUxOTQyNEYnRjFGNEZfcUY0LUZNNiVGT0Zob0ZlbkYxRmhuLUYjNihGYXRGNEZjb0Y0RmpyRjFGaG4tRiM2KC1GLjYkUSgzNzMyNDgwRidGMUY0RmNvRjQtRk02JUZPRmFxRmVuRjFGYHAtRiM2JkZqc0Y0LUZNNiVGZ3BGXXBGZW5GMUZgcC1GIzYoRmZ0RjRGanJGNEZpdEYxRmBwLUYjNihGX3VGNEZlcEY0RmJ1RjFGYHAtRiM2KEZqc0Y0Rl9xRjRGT0YxRmhuLUYjNiotRi42JFEnODM5ODA4RidGMUY0RmNvRjRGZXBGNEZPRjFGYHAtRiM2KEZgckY0RmNvRjRGZHFGMUZgcC1GIzYoRmpzRjRGanJGNEZPRjFGYHAtRiM2KEZgckY0RmVwRjRGZHFGMUZgcC1GIzYmLUYuNiRRKDI5ODU5ODRGJ0YxRjRGY3JGMUYx">LFAqJiIma28kIiIiKUkiekc2IiIiKkYlRiUqKCInSylbI0YlKUkieEdGKCIiI0YlKUYnIiInRiUhIiIqKEYrRiUpSSJ5R0YoRi5GJUYvRiVGJSooIidTKSpwRiUpRi0iIiVGJSlGJyIiJEYlRjEqKiIobyJST0YlRixGJUYzRiVGOUYlRjEqKCIoKVtSQUYlRixGJSlGJyIiJkYlRjEqKEY2RiUpRjRGOEYlRjlGJUYxKihGPkYlRjNGJUY/RiVGMSomIidfTm1GJSlGJyIiKEYlRjEqJiInLyo+JUYlKUYtRjBGJUYxKigiKDcoZjdGJUY3RiVGM0YlRiUqKCIoQyU+REYlRjdGJSlGJ0YuRiVGMSooRkxGJUYsRiVGQkYlRjEqKCIoIVtLUEYlRixGJSlGJ0Y4RiVGMSomRklGJSlGNEYwRiVGJSooRk5GJUZCRiVGT0YlRiUqKEZSRiVGM0YlRlNGJUYlKihGSUYlRjdGJUYnRiVGJSoqIiczKVIpRiVGLEYlRjNGJUYnRiVGMSooRj5GJUYsRiVGOUYlRiUqKEZJRiVGQkYlRidGJUYlKihGPkYlRjNGJUY5RiVGJSomIiglKWYpSEYlRj9GJUYl</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L22" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal">Alternatively:</Text-field>
+<Text-field style="Text" layout="Normal">Compute the Dixon polynomial.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L21" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYtLUkjbWlHRiQ2JVEjZHBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSJ+RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkwtRjY2LVEqJmNvbG9uZXE7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlMtRiw2JVEjRFJGJ0YvRjItRjY2LVEjOi1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUYsNiVRMERpeG9uUG9seW5vbWlhbEYnRi9GMi1JKG1mZW5jZWRHRiQ2JC1GIzYpLUYsNiVRImZGJ0YvRjItRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZKL0ZOUSwwLjMzMzMzMzNlbUYnRjUtRiw2JVEldmFyc0YnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJStleGVjdXRhYmxlR0Y9RjlGOS1GLDYjUSFGJ0Zpb0ZccEY5">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYtLUkjbWlHRiQ2JVEjZHBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSJ+RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkwtRjY2LVEqJmNvbG9uZXE7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlMtRiw2JVEjRFJGJ0YvRjItRjY2LVEjOi1GJ0Y5RjtGPkZARkJGREZGRkhGSkZNLUYsNiVRMERpeG9uUG9seW5vbWlhbEYnRi9GMi1JKG1mZW5jZWRHRiQ2JC1GIzYpLUYsNiVRImZGJ0YvRjItRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZKL0ZOUSwwLjMzMzMzMzNlbUYnRjUtRiw2JVEldmFyc0YnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJStleGVjdXRhYmxlR0Y9RjlGOS1GLDYjUSFGJ0Zpb0ZccEY5</Equation></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjZHBGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNiktRiM2XHMtRiM2KC1JI21uR0YkNiRRIjNGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZ24tSSVtc3VwR0YkNiUtRiw2JVEkdnNzRidGL0YyLUZWNiRRIjJGJ0Y5LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0ZZLUZqbjYlLUYsNiVRJXZzc19GJ0YvRjItRlY2JFEiNEYnRjlGYm9GOS1GNjYtUSgmbWludXM7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORmFwLUYjNihGaW5GWS1Gam42JUZnb0Zfb0Zib0ZZLUZqbjYlLUYsNiVRJHZ0dEYnRi9GMkZfb0Zib0Y5LUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkhGYHBGYnAtRiM2LEZfb0ZZRmluRllGZXBGWUZpcEZZLUYsNiVRJXZ0dF9GJ0YvRjJGOUZdcC1GIzYoRmluRllGZXBGWS1Gam42JUZhcUZfb0Zib0Y5RlxxLUYjNihGaW5GWUZncEZZRmZxRjlGXHEtRiM2Ki1GVjYkUSI2RidGOUZZRlxvRlktRmpuNiVGZ29GVUZib0ZZRmdwRjlGXXAtRiM2LEZfb0ZZRlxvRllGZ29GWUZncEZZRmZxRjlGXXAtRiM2KEZVRllGZW9GWUZncEY5RlxxLUYjNihGVUZZRmVwRlktRmpuNiVGaXBGam9GYm9GOUZdcC1GIzYqRlxyRllGZXBGWS1Gam42JUZpcEZVRmJvRllGYXFGOUZccS1GIzYoRmVwRllGZ3BGWUZmcUY5Rl1wLUYjNihGVUZZRmdyRllGZnFGOUZdcC1GIzYqRlVGWUZpbkZZRmVwRlktRiw2JVEiekYnRi9GMkY5RlxxLUYjNihGaW5GWUZncEZZRmNzRjlGXHEtRiM2KkZpbkZZRmlwRllGYXFGWUZjc0Y5RlxxLUYjNihGaW5GWUZmcUZZRmNzRjlGXXAtRiM2KkZVRllGXG9GWUZfckZZRmNzRjlGXXAtRiM2LC1GVjYkUSI4RidGOUZZRlxvRllGZ29GWUZncEZZRmNzRjlGXXAtRiM2LkZgdEZZRlxvRllGZ29GWUZpcEZZRmFxRllGY3NGOUZccS1GIzYqRlxvRllGZ29GWUZmcUZZRmNzRjlGXXAtRiM2KEZVRllGZW9GWUZjc0Y5RlxxLUYjNihGZXBGWUZncEZZRmNzRjlGXXAtRiM2LEZgdEZZRmVwRllGaXBGWUZhcUZZRmNzRjlGXHEtRiM2KEZlcEZZRmZxRllGY3NGOUZdcC1GIzYoRlVGWUZnckZZRmNzRjlGXXAtRiM2KkZVRllGW3NGWUZhcUZZRmNzRjlGXXAtRiM2KkZVRllGZ3BGWUZmcUZZRmNzRjlGXHEtRiM2KEZVRllGaW5GWUZlcEY5RlxxLUYjNipGVUZZRmluRllGaXBGWUZhcUY5RlxxLUYjNipGVUZZRmluRllGaXBGWS1GLDYlUSJ5RidGL0YyRjlGXHEtRiM2KkZVRllGaW5GWUZhcUZZRlt2RjlGXHEtRiM2KC1GVjYkUSI5RidGOUZZRlxvRllGX3JGOUZdcC1GIzYqRmJ2RllGXG9GWUZlcEZZLUYsNiVRInhGJ0YvRjJGOUZccS1GIzYqRlxyRllGXG9GWUZnb0ZZRmdwRjlGXXAtRiM2LEZcckZZRlxvRllGZ29GWUZpcEZZRlt2RjlGXXAtRiM2KkZVRllGXG9GWUZnb0ZZRmZxRjlGXXAtRiM2LEZcckZZRlxvRllGZ29GWUZhcUZZRlt2RjlGXXAtRiM2KkZcckZZRlxvRllGZ3BGWUZndkY5Rl1wLUYjNixGXHJGWUZcb0ZZRmlwRllGYXFGWUZndkY5RlxxLUYjNipGVUZZRlxvRllGZnFGWUZndkY5Rl1wLUYjNihGYnZGWUZfckZZRmd2RjlGXXAtRiM2KkZcckZZRmVwRllGaXBGWUZhcUY5Rl1wLUYjNipGXHJGWUZlcEZZRmlwRllGW3ZGOUZdcC1GIzYqRlxyRllGZXBGWUZhcUZZRlt2RjlGXXAtRiM2KkZcckZZRmdvRllGZ3BGWUZndkY5Rl1wLUYjNixGXHJGWUZnb0ZZRmlwRllGYXFGWUZndkY5RlxxLUYjNipGVUZZRmdvRllGZnFGWUZndkY5Rl1wLUYjNihGYnZGWUZbc0ZZRmFxRjlGXXAtRiM2KEZidkZZRltzRllGW3ZGOUZdcC1GIzYoRlVGWUZncEZZRmZxRjlGXXAtRiM2KkZidkZZRmdwRllGYXFGWUZbdkY5Rl1wLUYjNihGVUZZRmluRllGY3NGOUZdcC1GIzYqRlVGWUZcb0ZZRmdvRllGY3NGOUZccS1GIzYoRlxyRllGZXBGWUZjc0Y5RlxxLUYjNihGXHJGWUZncEZZRmNzRjlGXXAtRiM2KkZVRllGaXBGWUZhcUZZRmNzRjlGXXAtRiM2KEZVRllGZnFGWUZjc0Y5RlxxLUYjNihGYnZGWUZcb0ZZRmdvRjlGXXAtRiM2KEZidkZZRlxvRllGZ3ZGOUZdcC1GIzYoRmJ2RllGZ29GWUZndkY5Rl1wLUYjNihGYnZGWUZpcEZZRmFxRjlGXXAtRiM2KEZidkZZRmlwRllGW3ZGOUZdcC1GIzYoRmJ2RllGYXFGWUZbdkY5RlxxLUYjNiZGYnZGWUZjc0Y5RjktRjY2LVEiLEYnRjlGOy9GP0YxRkBGQkZERkZGSEZmbi9GTlEsMC4zMzMzMzMzZW1GJy1JKG1mZW5jZWRHRiQ2Ji1GIzYnRmdvRmh6RmFxLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RjkvJSVvcGVuR1EiW0YnLyUmY2xvc2VHUSJdRidGaHotRl9bbDYmLUYjNidGXG9GaHpGaXBGY1tsRjlGOUZmW2xGaVtsRmNbbEY5RmNbbEY5">NiUsXHMqKCIiJCIiIilJJHZzc0c2IiIiI0YmKUkldnNzX0dGKSIiJUYmRiYqKEYnRiYpRixGKkYmKUkkdnR0R0YpRipGJiEiIiosRipGJkYnRiZGL0YmRjFGJkkldnR0X0dGKUYmRiYqKEYnRiZGL0YmKUY0RipGJkYyKihGJ0YmRjBGJkY2RiZGJioqIiInRiZGKEYmKUYsRiVGJkYwRiZGJiosRipGJkYoRiZGLEYmRjBGJkY2RiZGMiooRiVGJkYrRiZGMEYmRjIqKEYlRiZGL0YmKUYxRi1GJkYmKipGOUYmRi9GJilGMUYlRiZGNEYmRjIqKEYvRiZGMEYmRjZGJkYmKihGJUYmRj5GJkY2RiZGMioqRiVGJkYnRiZGL0YmSSJ6R0YpRiZGMiooRidGJkYwRiZGREYmRiYqKkYnRiZGMUYmRjRGJkZERiZGJiooRidGJkY2RiZGREYmRiYqKkYlRiZGKEYmRjpGJkZERiZGMiosIiIpRiZGKEYmRixGJkYwRiZGREYmRjIqLkZKRiZGKEYmRixGJkYxRiZGNEYmRkRGJkYyKipGKEYmRixGJkY2RiZGREYmRiYqKEYlRiZGK0YmRkRGJkYyKihGL0YmRjBGJkZERiZGJiosRkpGJkYvRiZGMUYmRjRGJkZERiZGMiooRi9GJkY2RiZGREYmRiYqKEYlRiZGPkYmRkRGJkYyKipGJUYmRkBGJkY0RiZGREYmRjIqKkYlRiZGMEYmRjZGJkZERiZGMiooRiVGJkYnRiZGL0YmRiYqKkYlRiZGJ0YmRjFGJkY0RiZGJioqRiVGJkYnRiZGMUYmSSJ5R0YpRiZGJioqRiVGJkYnRiZGNEYmRldGJkYmKigiIipGJkYoRiZGOkYmRiYqKkZaRiZGKEYmRi9GJkkieEdGKUYmRjIqKkY5RiZGKEYmRixGJkYwRiZGJiosRjlGJkYoRiZGLEYmRjFGJkZXRiZGMioqRiVGJkYoRiZGLEYmRjZGJkYyKixGOUYmRihGJkYsRiZGNEYmRldGJkYyKipGOUYmRihGJkYwRiZGZm5GJkYyKixGOUYmRihGJkYxRiZGNEYmRmZuRiZGMioqRiVGJkYoRiZGNkYmRmZuRiZGJiooRlpGJkY6RiZGZm5GJkYyKipGOUYmRi9GJkYxRiZGNEYmRjIqKkY5RiZGL0YmRjFGJkZXRiZGMioqRjlGJkYvRiZGNEYmRldGJkYyKipGOUYmRixGJkYwRiZGZm5GJkYyKixGOUYmRixGJkYxRiZGNEYmRmZuRiZGMioqRiVGJkYsRiZGNkYmRmZuRiZGJiooRlpGJkZARiZGNEYmRjIqKEZaRiZGQEYmRldGJkYyKihGJUYmRjBGJkY2RiZGMioqRlpGJkYwRiZGNEYmRldGJkYyKihGJUYmRidGJkZERiZGMioqRiVGJkYoRiZGLEYmRkRGJkYyKihGOUYmRi9GJkZERiZGJiooRjlGJkYwRiZGREYmRiYqKkYlRiZGMUYmRjRGJkZERiZGMiooRiVGJkY2RiZGREYmRjIqKEZaRiZGKEYmRixGJkYmKihGWkYmRihGJkZmbkYmRjIqKEZaRiZGLEYmRmZuRiZGMiooRlpGJkYxRiZGNEYmRjIqKEZaRiZGMUYmRldGJkYyKihGWkYmRjRGJkZXRiZGMiomRlpGJkZERiZGJjckRixGNDckRihGMQ==</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L24" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal">Compute the Dixon matrix.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L23" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYtLUkjbWlHRiQ2JVEjZG1GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSJ+RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkwtRjY2LVEqJmNvbG9uZXE7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlNGNS1GLDYlUSNEUkYnRi9GMi1GNjYtUSM6LUYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRiw2JVEsRGl4b25NYXRyaXhGJ0YvRjItSShtZmVuY2VkR0YkNiQtRiM2Ji1GLDYlUSNkcEYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJStleGVjdXRhYmxlR0Y9RjlGOUZgb0Zjb0Y5">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEjZG1GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSJ+RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkwtRjY2LVEqJmNvbG9uZXE7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlNGNS1GLDYlUSNEUkYnRi9GMi1GNjYtUSM6LUYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRiw2JVEsRGl4b25NYXRyaXhGJ0YvRjItSShtZmVuY2VkR0YkNiQtRiM2Iy1GLDYlUSNkcEYnRi9GMkY5</Equation></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjZG1GJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUYjNi0tSShtYWN0aW9uR0YkNiUtSShtZmVuY2VkR0YkNictSSdtdGFibGVHRiQ2OC1JJG10ckdGJDYmLUkkbXRkR0YkNigtRiM2Jy1GLDYmUSp+MTF+eH4xMX5GJ0YvLyUpcmVhZG9ubHlHRjFGMi1GLDYmUSdNYXRyaXhGJ0YvRl9vRjIvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRl9vRjkvJSlyb3dhbGlnbkdRIUYnLyUsY29sdW1uYWxpZ25HRmlvLyUrZ3JvdXBhbGlnbkdGaW8vJShyb3dzcGFuR1EiMUYnLyUrY29sdW1uc3BhbkdGYHBGZ29Gam9GXHAtRmVuNiYtRmhuNigtRiM2Jy1GLDYmUSxEYXRhflR5cGU6fkYnRi9GX29GMi1GLDYmUSlhbnl0aGluZ0YnRi9GX29GMkZkb0Zfb0Y5RmdvRmpvRlxwRl5wRmFwRmdvRmpvRlxwLUZlbjYmLUZobjYoLUYjNictRiw2JlEqU3RvcmFnZTp+RidGL0Zfb0YyLUYsNiZRLHJlY3Rhbmd1bGFyRidGL0Zfb0YyRmRvRl9vRjlGZ29Gam9GXHBGXnBGYXBGZ29Gam9GXHAtRmVuNiYtRmhuNigtRiM2Jy1GLDYmUShPcmRlcjp+RidGL0Zfb0YyLUYsNiZRLkZvcnRyYW5fb3JkZXJGJ0YvRl9vRjJGZG9GX29GOUZnb0Zqb0ZccEZecEZhcEZnb0Zqb0ZccC8lJmFsaWduR1ElYXhpc0YnL0Zob1EpYmFzZWxpbmVGJy9GW3BRJ2NlbnRlckYnL0ZdcFEnfGZybGVmdHxockYnLyUvYWxpZ25tZW50c2NvcGVHRjEvJSxjb2x1bW53aWR0aEdRJWF1dG9GJy8lJndpZHRoR0Zkcy8lK3Jvd3NwYWNpbmdHUSYxLjBleEYnLyUuY29sdW1uc3BhY2luZ0dRJjAuOGVtRicvJSlyb3dsaW5lc0dRJW5vbmVGJy8lLGNvbHVtbmxpbmVzR0ZfdC8lJmZyYW1lR0ZfdC8lLWZyYW1lc3BhY2luZ0dRLDAuNGVtfjAuNWV4RicvJSplcXVhbHJvd3NHRj0vJS1lcXVhbGNvbHVtbnNHRj0vJS1kaXNwbGF5c3R5bGVHRj0vJSVzaWRlR1EmcmlnaHRGJy8lMG1pbmxhYmVsc3BhY2luZ0dGXHRGX29GOS8lJW9wZW5HUSJbRicvJSZjbG9zZUdRIl1GJy8lK2FjdGlvbnR5cGVHUS1icm93c2VydGFibGVGJy8lKXJ0YWJsZWlkR1E1MTg0NDY3NDQwNzQyNTE3MDk5NjZGJy1GNjYtUSIsRidGOUY7L0Y/RjFGQEZCRkRGRkZIL0ZLUSYwLjBlbUYnL0ZOUSwwLjMzMzMzMzNlbUYnLUZVNiYtRiM2OS1JI21uR0YkNiRGYHBGOUZedi1GLDYlUSV2dHRfRidGL0YyRl52LUYsNiVRJXZzc19GJ0YvRjJGXnYtRiM2JC1JJW1zdXBHRiQ2JUZddy1GW3c2JFEiMkYnRjkvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRjlGXnYtRiM2JkZgdy1GNjYtUTEmSW52aXNpYmxlVGltZXM7RidGOUY7Rj5GQEZCRkRGRkZIRmJ2L0ZORmN2Rl13RjlGXnYtRiM2JC1GZnc2JUZgd0Zod0ZbeEY5Rl52LUYjNiZGYHdGYHhGZXdGOUZedi1GIzYmRmZ4RmB4Rl13RjlGXnYtRiM2JC1GZnc2JUZgdy1GW3c2JFEiM0YnRjlGW3hGOUZedi1GIzYmRmZ4RmB4RmV3RjlGXnYtRiM2JC1GZnc2JUZgdy1GW3c2JFEiNEYnRjlGW3hGOUZkb0Y5RjlGYnVGZXVGXnYtRlU2Ji1GIzYnRmB3Rl52Rl13RmRvRjlGOUZidUZldUZedi1GVTYmLUYjNjlGanZGXnYtRiw2JVEkdnR0RidGL0YyRl52LUYsNiVRJHZzc0YnRi9GMkZedi1GIzYkLUZmdzYlRmR6Rmh3Rlt4RjlGXnYtRiM2JkZnekZgeEZkekY5Rl52LUYjNiQtRmZ3NiVGZ3pGaHdGW3hGOUZedi1GIzYkLUZmdzYlRmR6RmB5Rlt4RjlGXnYtRiM2JkZnekZgeEZcW2xGOUZedi1GIzYmRmJbbEZgeEZkekY5Rl52LUYjNiQtRmZ3NiVGZHpGaXlGW3hGOUZedi1GIzYmRmJbbEZgeEZcW2xGOUZkb0Y5RjlGYnVGZXVGXnYtRlU2Ji1GIzYnRmd6Rl52RmR6RmRvRjlGOUZidUZldUZkb0Y5RmRvRjk=">NictSSdNYXRyaXhHNiQlKnByb3RlY3RlZEdJKF9zeXNsaWJHNiI2Iy9JJCVpZEdGKCI1bSo0PER1U3VZJT03LSIiIkkldnR0X0dGKEkldnNzX0dGKCokKUYvIiIjRi4qJkYwRi5GL0YuKiQpRjBGM0YuKiZGMEYuRjJGLiomRjZGLkYvRi4qJClGMCIiJEYuKiZGNkYuRjJGLiokKUYwIiIlRi43JEYwRi83LUYuSSR2dHRHRihJJHZzc0dGKCokKUZCRjNGLiomRkNGLkZCRi4qJClGQ0YzRi4qJClGQkY7Ri4qJkZDRi5GRUYuKiZGSEYuRkJGLiokKUZCRj9GLiomRkhGLkZFRi43JEZDRkI=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L25" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal">Compute a maximal-rank submatrix of the Dixon matrix.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L26" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYtLUkjbWlHRiQ2JVEjcnNGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSJ+RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkwtRjY2LVEqJmNvbG9uZXE7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlNGNS1GLDYlUSNEUkYnRi9GMi1GNjYtUSM6LUYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRiw2JVEuUmFua1N1Yk1hdHJpeEYnRi9GMi1JKG1mZW5jZWRHRiQ2JC1GIzYmLUYsNiVRI2RtRidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2V4ZWN1dGFibGVHRj1GOUY5RmBvRmNvRjk=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbWlHRiQ2JVEjcnNGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSJ+RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRkwtRjY2LVEqJmNvbG9uZXE7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjI3Nzc3NzhlbUYnL0ZORlNGNS1GLDYlUSNEUkYnRi9GMi1GNjYtUSM6LUYnRjlGO0Y+RkBGQkZERkZGSEZKRk0tRiw2JVEuUmFua1N1Yk1hdHJpeEYnRi9GMi1JKG1mZW5jZWRHRiQ2JC1GIzYjLUYsNiVRI2RtRidGL0YyRjk=</Equation></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEjcnNGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6PUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZMLUkobWFjdGlvbkdGJDYlLUkobWZlbmNlZEdGJDYoLUYjNiUtSSdtdGFibGVHRiQ2PS1JJG10ckdGJDYuLUkkbXRkR0YkNigtRiM2Ji1JI21uR0YkNiRRIjlGJ0Y5LUY2Ni1RMSZJbnZpc2libGVUaW1lcztGJ0Y5RjtGPkZARkJGREZGRkgvRktRJjAuMGVtRicvRk5GZG8tRiw2JVEiekYnRi9GMkY5LyUpcm93YWxpZ25HUSFGJy8lLGNvbHVtbmFsaWduR0ZbcC8lK2dyb3VwYWxpZ25HRltwLyUocm93c3BhbkdRIjFGJy8lK2NvbHVtbnNwYW5HRmJwLUZobjYoLUYjNiYtRjY2LVEqJnVtaW51czA7RidGOUY7Rj5GQEZCRkRGRkZIL0ZLUSwwLjIyMjIyMjJlbUYnL0ZORl1xLUYjNiZGXG9GYG8tRiw2JVEieUYnRi9GMkY5LyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJ0Y5RmlvRlxwRl5wRmBwRmNwLUZobjYoLUYjNiZGaXAtRiM2JkZcb0Zgby1GLDYlUSJ4RidGL0YyRjlGZHFGOUZpb0ZccEZecEZgcEZjcC1GaG42KC1GIzYmLUZdbzYkUSI2RidGOUZgb0Zmb0Y5RmlvRlxwRl5wRmBwRmNwLUZobjYoLUZdbzYkUSIwRidGOUZpb0ZccEZecEZgcEZjcC1GaG42KC1GIzYmRmlwLUYjNiYtRl1vNiRRIjNGJ0Y5RmBvRmZvRjlGZHFGOUZpb0ZccEZecEZgcEZjcEZlcC1GaG42KC1GIzYmRmlwLUYjNiZGZHJGYG9GXXJGOUZkcUY5RmlvRlxwRl5wRmBwRmNwRlxzRmlvRlxwRl5wLUZlbjYuRmVwLUZobjYoLUYjNidGaXBGYHMtRjY2LVEoJm1pbnVzO0YnRjlGO0Y+RkBGQkZERkZGSEZccUZecUZcb0Y5RmlvRlxwRl5wRmBwRmNwRmdyRmVwRmVzLUZobjYoLUYjNiZGYnNGYG9GYXFGOUZpb0ZccEZecEZgcEZjcEZddEZnckZnckZpb0ZccEZecC1GZW42LkZncUZnci1GaG42KC1GIzYnRmlwRmBzLUY2Ni1RIitGJ0Y5RjtGPkZARkJGREZGRkhGXHFGXnFGXG9GOUZpb0ZccEZecEZgcEZjcEZlcy1GaG42KC1GIzYmRmlwLUYjNiZGZHJGYG9GYXFGOUZkcUY5RmlvRlxwRl5wRmBwRmNwRmdyRmdyLUZobjYoLUYjNidGaXAtRiM2Ji1GXW82JFEiOEYnRjlGYG9GZm9GOUZedUZkckY5RmlvRlxwRl5wRmBwRmNwRmdyRmlvRlxwRl5wLUZlbjYuRlxzRmdyLUZobjYoLUYjNiZGYnNGYG9GXXJGOUZpb0ZccEZecEZgcEZjcC1GaG42KC1GIzYnRmlwRmBzRmF0RmJzRjlGaW9GXHBGXnBGYHBGY3BGZ3ItRmhuNihGZm9GaW9GXHBGXnBGYHBGY3BGZ3JGZ3ItRmhuNigtRiM2JUZpcEZic0Y5RmlvRlxwRl5wRmBwRmNwRmlvRlxwRl5wLUZlbjYuRmdyRmVzRmF1RmdyLUZobjYoLUYjNiZGaXBGW3ZGZHFGOUZpb0ZccEZecEZgcEZjcEZnckZnckZnckZnckZpb0ZccEZecC1GZW42LkZgckZhdUZncUZqdkZnci1GaG42KC1GIzYnRmlwRmBzRl51RmJzRjlGaW9GXHBGXnBGYHBGY3BGZ3JGZ3ItRmhuNihGYnNGaW9GXHBGXnBGYHBGY3BGaW9GXHBGXnAtRmVuNi5GYnZGZ3ItRmhuNigtRiM2JkZmb0ZhdEZic0Y5RmlvRlxwRl5wRmBwRmNwRmdyRmdyRmdyRmdyLUZobjYoLUYjNiVGaXAtRl1vNiRRIjJGJ0Y5RjlGaW9GXHBGXnBGYHBGY3BGZ3JGaW9GXHBGXnAtRmVuNi5GYXUtRmhuNigtRiM2J0ZpcEZbdkZhdEZkckY5RmlvRlxwRl5wRmBwRmNwRmdyRmdyRmdyRmdyLUZobjYoLUYjNiVGaXBGZHJGOUZpb0ZccEZecEZgcEZjcEZnckZnckZpb0ZccEZecC1GZW42LkZqdkZnckZnci1GaG42KC1GXW82JEZicEY5RmlvRlxwRl5wRmBwRmNwRmdyLUZobjYoLUYjNiVGaXBGaXlGOUZpb0ZccEZecEZgcEZjcEZnckZnckZnckZpb0ZccEZecC8lJmFsaWduR1ElYXhpc0YnL0Zqb1EpYmFzZWxpbmVGJy9GXXBRJ2NlbnRlckYnL0ZfcFEnfGZybGVmdHxockYnLyUvYWxpZ25tZW50c2NvcGVHRjEvJSxjb2x1bW53aWR0aEdRJWF1dG9GJy8lJndpZHRoR0ZcW2wvJStyb3dzcGFjaW5nR1EmMS4wZXhGJy8lLmNvbHVtbnNwYWNpbmdHUSYwLjhlbUYnLyUpcm93bGluZXNHUSVub25lRicvJSxjb2x1bW5saW5lc0dGZ1tsLyUmZnJhbWVHRmdbbC8lLWZyYW1lc3BhY2luZ0dRLDAuNGVtfjAuNWV4RicvJSplcXVhbHJvd3NHRj0vJS1lcXVhbGNvbHVtbnNHRj0vJS1kaXNwbGF5c3R5bGVHRj0vJSVzaWRlR1EmcmlnaHRGJy8lMG1pbmxhYmVsc3BhY2luZ0dGZFtsRmRxRjlGOS9JK21zZW1hbnRpY3NHRiRRJ01hdHJpeEYnLyUlb3BlbkdRIltGJy8lJmNsb3NlR1EiXUYnRmpcbC8lK2FjdGlvbnR5cGVHUS5ydGFibGVhZGRyZXNzRicvJSlydGFibGVpZEdRNTE4NDQ2NzQ0MDc0MjUxNzA0MDcwRidGZHFGOQ==">LUknTWF0cml4RzYkJSpwcm90ZWN0ZWRHSShfc3lzbGliRzYiNiMvSSQlaWRHRiciNXFTcV5VMlduVz0=</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L27" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal">Compute the Dixon resultant.</Text-field>
+</Input>
+</Group>
+<Group labelreference="L28" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JVEjRFJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6LUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMLUYsNiVRLURpeG9uRXh0cmFjdEYnRi9GMi1JKG1mZW5jZWRHRiQ2JC1GIzYmLUYsNiVRI3JzRidGL0YyLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lK2V4ZWN1dGFibGVHRj1GOUY5RlpGZ25GOQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVEjRFJGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSM6LUYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMLUYsNiVRLURpeG9uRXh0cmFjdEYnRi9GMi1JKG1mZW5jZWRHRiQ2JC1GIzYjLUYsNiVRI3JzRidGL0YyRjk=</Equation></Text-field>
+</Input>
+<Output>
+<Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbXNHRiQ2I1EhRictSSNtb0dGJDYtUSIsRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR1EldHJ1ZUYnLyUpc3RyZXRjaHlHRjgvJSpzeW1tZXRyaWNHRjgvJShsYXJnZW9wR0Y4LyUubW92YWJsZWxpbWl0c0dGOC8lJ2FjY2VudEdGOC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnLUYjNlAtRiM2Ji1JI21uR0YkNiRRJjM2ODY0RidGMy1GMDYtUTEmSW52aXNpYmxlVGltZXM7RidGM0Y2L0Y6RjhGPEY+RkBGQkZERkYvRkpGSC1JJW1zdXBHRiQ2JS1JI21pR0YkNiVRInpGJy8lJ2l0YWxpY0dGOy9GNFEnaXRhbGljRictRlE2JFEiOUYnRjMvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRjMtRjA2LVEoJm1pbnVzO0YnRjNGNkZXRjxGPkZARkJGRC9GR1EsMC4yMjIyMjIyZW1GJy9GSkZoby1GIzYoLUZRNiRRJzI0ODgzMkYnRjNGVC1GWjYlLUZnbjYlUSJ4RidGam5GXG8tRlE2JFEiMkYnRjNGYW9GVC1GWjYlRmZuLUZRNiRRIjZGJ0YzRmFvRjMtRjA2LVEiK0YnRjNGNkZXRjxGPkZARkJGREZnb0Zpby1GIzYoRlxwRlQtRlo2JS1GZ242JVEieUYnRmpuRlxvRmRwRmFvRlRGZ3BGM0Zkby1GIzYoLUZRNiRRJzY5OTg0MEYnRjNGVC1GWjYlRmFwLUZRNiRRIjRGJ0YzRmFvRlQtRlo2JUZmbi1GUTYkUSIzRidGM0Zhb0YzRmRvLUYjNiotRlE2JFEoMzYzOTE2OEYnRjNGVEZfcEZURmFxRlRGYHJGM0Zkby1GIzYoLUZRNiRRKDIyMzk0ODhGJ0YzRlRGX3BGVC1GWjYlRmZuLUZRNiRRIjVGJ0YzRmFvRjNGZG8tRiM2KEZocUZULUZaNiVGY3FGXXJGYW9GVEZgckYzRmRvLUYjNihGXHNGVEZhcUZURl9zRjNGZG8tRiM2Ji1GUTYkUSc2NjM1NTJGJ0YzRlQtRlo2JUZmbi1GUTYkUSI3RidGM0Zhb0YzRmRvLUYjNiYtRlE2JFEnNDE5OTA0RidGM0ZULUZaNiVGYXBGaXBGYW9GM0ZccS1GIzYoLUZRNiRRKDEyNTk3MTJGJ0YzRlRGW3JGVEZhcUYzRmRvLUYjNigtRlE2JFEoMjUxOTQyNEYnRjNGVEZbckZULUZaNiVGZm5GZHBGYW9GM0Zkby1GIzYoRl11RlRGX3BGVEZmc0YzRmRvLUYjNigtRlE2JFEoMzczMjQ4MEYnRjNGVEZfcEZULUZaNiVGZm5GXXJGYW9GM0ZccS1GIzYmRmZ0RlQtRlo2JUZjcUZpcEZhb0YzRlxxLUYjNihGYnVGVEZmc0ZURmV1RjNGXHEtRiM2KEZbdkZURmFxRlRGXnZGM0ZccS1GIzYoRmZ0RlRGW3JGVEZmbkYzRmRvLUYjNiotRlE2JFEnODM5ODA4RidGM0ZURl9wRlRGYXFGVEZmbkYzRlxxLUYjNihGXHNGVEZfcEZURmByRjNGXHEtRiM2KEZmdEZURmZzRlRGZm5GM0ZccS1GIzYoRlxzRlRGYXFGVEZgckYzRlxxLUYjNiYtRlE2JFEoMjk4NTk4NEYnRjNGVEZfc0YzRjMvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnRjM=">NiRRITYiLFAqJiIma28kIiIiKUkiekdGJCIiKkYoRigqKCInSylbI0YoKUkieEdGJCIiI0YoKUYqIiInRighIiIqKEYtRigpSSJ5R0YkRjBGKEYxRihGKCooIidTKSpwRigpRi8iIiVGKClGKiIiJEYoRjMqKiIobyJST0YoRi5GKEY1RihGO0YoRjMqKCIoKVtSQUYoRi5GKClGKiIiJkYoRjMqKEY4RigpRjZGOkYoRjtGKEYzKihGQEYoRjVGKEZBRihGMyomIidfTm1GKClGKiIiKEYoRjMqJiInLyo+JUYoKUYvRjJGKEYzKigiKDcoZjdGKEY5RihGNUYoRigqKCIoQyU+REYoRjlGKClGKkYwRihGMyooRk5GKEYuRihGREYoRjMqKCIoIVtLUEYoRi5GKClGKkY6RihGMyomRktGKClGNkYyRihGKCooRlBGKEZERihGUUYoRigqKEZURihGNUYoRlVGKEYoKihGS0YoRjlGKEYqRihGKCoqIiczKVIpRihGLkYoRjVGKEYqRihGMyooRkBGKEYuRihGO0YoRigqKEZLRihGREYoRipGKEYoKihGQEYoRjVGKEY7RihGKComIiglKWYpSEYoRkFGKEYo</Equation></Text-field>
+</Output>
+</Group>
+<Group labelreference="L29" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field style="Text" layout="Normal">The empty string &quot;&quot; confirms that everything went well. There is a miniscule chance that DR:-RankSubMatrix does not return a maximal-rank submatrix which would be detected by DR:-DixonExtract. In this case, the string contains an error message.</Text-field>
+<Text-field style="Text" layout="Normal"></Text-field>
+<Text-field style="Text" bold="true" layout="Normal"><Font bold="true">Further details and functions</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L30" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JVEpRGVzY3JpYmVGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2Ji1GLDYlUSNEUkYnRi9GMi8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy9GM1Enbm9ybWFsRidGQ0Y9RkBGQw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYkLUkjbWlHRiQ2JVEpRGVzY3JpYmVGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiQtRiM2Iy1GLDYlUSNEUkYnRi9GMi9GM1Enbm9ybWFsRic=</Equation></Text-field>
+</Input>
+<Output>
+<Text-field style="Line Printed Output" layout="Line Printed Output">
+# Dixon Resultant Computation.
+# Date: 12/18/15, Version 2.0
+# Author: Manfred Minimair
+# Additional contributors: Arthur Cherba, Hoon Hong
+# E-mail: manfred@minimair.org
+# Released under GPL Version 3
+# Copyright (C) Manfred Minimair, 2015
+module DR:
+
+    # Compute the Dixon resultant.
+    # pols::list(polynom) ... list of (d+1) polynomials
+    # vars::list(symbol) ... list d variables of polsReturn the Dixon resultant 
+    # of pols.
+    DixonResultant( pols::list(polynom), vars::list(symbol) )
+
+    # Compute the Dixon polynomial.
+    # pols ... list of (d+1) polynomials (different order just changes sign)
+    # vars ... list d variables (different order produce completely different 
+    # polynomials!)
+    # auxVars ... list of d new variables. If it is empty, the new variables 
+    # will be automatically generated.
+    # Returns dixPol,newVarList, vars,
+    # where dixPol is the expanded Dixon polynomial, vars is copied from the 
+    # input parameter vars and newVarList is the list of d new variables used 
+    # by the Dixon polynomial.
+    DixonPolynomial( pols::list(polynom), vars::list(symbol), 
+                     auxVars::list(symbol) := [] )
+
+    # Compute the Dixon matrix of a Dixon polynomial.
+    # dixonPoly ... Dixon polynomial
+    # rowVars ... variables for monomials to index the Dixon matrix rows
+    # colVars ... variables for monomials to index the Dixon matrix columns
+    # roworder ... ordering of the row monomials indexing the Dixon matrix, 
+    # compatible with Groebner:-MonomialOrder
+    # colorder ... ordering of the column monomials indexing the Dixon matrix, 
+    # compatible with Groebner:-MonomialOrder
+    # Return matrix, rowMons, rowVars, colMons, colVars,
+    # where matrix is the Dixon matrix, rowMons and colMons are the monomials 
+    # indexing the rows and respectively columns of the matrix
+    DixonMatrix( dixonPoly, rowVars, colVars, roworder := tdeg, 
+                 colorder := tdeg )
+
+    # Extract a maximal-rank minor of a parametric matrix.
+    # M ... parametric matrix
+    # params ... parameters of M
+    # Return a maximal-rank minor of the parametric matrix M with high 
+    # likelihood. If params is empty, the parameters will be automatically 
+    # determined.
+    RankSubMatrix( M::Matrix, 
+                   { params::list := [] } )
+
+    # Extract the Dixon resultant from a Dixon matrix.M ... Dixon matrix
+    # Return message, expression. If message is empty then the expression is 
+    # the Dixon resultant of pols Otherwise message is an error message and the 
+    # expression is only a factor of the Dixon resultant.
+    DixonExtract( M::Matrix )
+
+    # Various functions to gather information about the computation.
+    # Author: Manfred Minimair
+    # E-mail: manfred@minimair.org
+    # Released under GPL Version 3
+    # Copyright (C) Manfred Minimair, 2015
+    module Info:
+
+        # Polynomial system information.
+        # numVars ... number of variables
+        # degrees ... list of degrees or degree vectors of the system
+        # numParams ... number of parameters
+        # paramDegrees ... list of degrees or degree vectors of the parameters 
+        # of the system
+        # Return a table with the inormation.
+        System( sysName::string, numVars::integer, degrees, 
+                numParams::integer := undefined, paramDegrees := undefined )
+
+        # OPen file to write computational data.
+        # fname ... name of the file
+        # header ... if true, print a csv header into the file
+        # discard ... if true, delete the file if it exists before opening a 
+        # new file
+        # Return the file descriptor of the file.
+        OpenFile( fname::string, 
+                  { discard::truefalse := true, header::truefalse := true } )
+                :: filedesc
+
+        # Save initial data.
+        # fh ... file descriptor of output file
+        # t ... table wit data
+        SaveStart( fh::filedesc, t::table )
+
+        # Save remaining data.
+        # fh ... file descriptor of output file
+        # t ... table wit data
+        SaveEnd( fh::filedesc, t::table )
+
+        # Run a function and store performance measures in a file.
+        # fh ... file descriptor of csv file to append peformance measures, 
+        # according to SaveStart and SaveEnd
+        # sysName ... name of the polynomial system
+        # fun ... function to run, usually Dixon resultant computation
+        # f ... polynomial system
+        # deg ... degree list or degree in the variables of the system
+        # vars ... list of variables of the system
+        # paramDeg ... total degree of the parameters of the system
+        # params ... list of parameters of the system
+        # Return a table with the performace measure, as prduced by 
+        # DRes:-ComposeDixon.
+        RunMeasure( fh::filedesc, fun::{function, procedure}, sysName::string, 
+                    f::list, deg::{integer, list}, vars::list, 
+                    paramDeg::integer, params::list )
+
+        # Gather and store information about the Dixon matrix.
+        # measures ... table where the information about the Dixon matrix will 
+        # be stored: number of rows and columns and rank
+        # Return a function with input matrix M that returns M.
+        DixonMatrix( measures::{name, table, undefined} := undefined )
+
+        # Store the extraction time and the name of the function used for Dixon 
+        # resultant extraction.
+        # extractorList ... list of functions that are composed to extract the 
+        # Dixon resultant from the Dixon matrix.
+        # measures ... table where the information about the Dixon matrix will 
+        # be stored: number of rows and columns and rank
+        # Return a function that returns its own input.
+        Extraction( extractorList::list, 
+                    measures::{name, table, undefined} := undefined )
+
+        # fun ... procedure to be timed and whose byte usage is to be collected
+        # Measure the execution time of a function.
+        # measures ... output parameter, a table. If measures is a name then a 
+        # table will be assigned to it. If measures is undefined then no timing 
+        # will be produced.
+        # other paramters ... will be passed as inputs to fun
+        # Return a function that returns the output of fun and assigns the 
+        # timing to the table measures with key convert(fun, string).
+        Measure( fun, measures::{name, table, undefined} := undefined )
+
+        # Determine the rank of a parametric matrix.
+        # M ... matrix with parametric entries
+        # tries ... number of times the matrix parameters should be 
+        # instantiated with random numbers and instantiated matrix should have 
+        # the same rank
+        # params ... optional list of parameters of matrix, if absent then 
+        # automatically determined
+        # Return the rank (with high probability) of the parametric matrix M
+        Rank( M::Matrix, tries::integer := 10, params::list(name) := [] )
+
+    # Various functions used in extracting the Dixon resultant from the Dixon 
+    # matrix.
+    # Author: Manfred Minimair
+    # E-mail: manfred@minimair.org
+    # Released under GPL Version 3
+    # Copyright (C) Manfred Minimair, 2015
+    module Extract:
+
+        # Extract a maximal-rank minor of a parametric matrix.
+        # M ... parametric matrix
+        # parameters ... parameters of M
+        # Return a maximal-rank minor of the parametric matrix M with high 
+        # likelihood. If params is empty, the parameters will be automatically 
+        # determined.
+        RankSubMatrix( M::Matrix, 
+                       { parameters::list := [] } )
+
+        # Compute the determinant of a matrix with Maple's determinant 
+        # function.
+        # A ... given matrix
+        # Return lowerRank::string, the determinant of A. non-empty message iff 
+        # the determinant is 0 and A is not empty.
+        MapleDet( A::Matrix )
+
+        # Compute a maximal-rank minor of a matrix via Gaussian elimination.
+        # A ... given matrix
+        # Named optional arguments:
+        # return_fullrank ... indicate whether a non-zero minor of full rank 
+        # was found
+        # moreRows ... transpose A such that it has at least as many rows as 
+        # columns
+        # *row* ... extract common factors of rows
+        # *col* ... extract common factors of columns
+        # *Numers ... extract common factors from numerators of matrix entries
+        # *Denoms ... extract common factors from denominators of matrix 
+        # entries
+        # pre* ... extract common factors before the Gaussian elimination 
+        # starts
+        # pivot* ... extract common factors from the pivot row during Gaussian 
+        # elimination
+        # rest* ... extract common factors from rows other than the pivot row 
+        # during Gaussian elimination
+        # Return lowerRank::string, a maximal-rank minor of A. If 
+        # moreRows=false and rest* is activated then the output can be a 
+        # multiple of a maximal-rank minor, because the output may contain 
+        # factors of rows that are not needed for the determinant computation.
+        MaxMinorElim( A::Matrix, 
+                      { colDenoms::truefalse := false, 
+                        colNumers::truefalse := false, 
+                        moreRows::truefalse := true, 
+                        pivotRowDenoms::truefalse := false, 
+                        pivotRowNumers::truefalse := false, 
+                        preColDenoms::truefalse := false, 
+                        preColNumers::truefalse := false, 
+                        preRowDenoms::truefalse := false, 
+                        preRowNumers::truefalse := false, 
+                        restRowDenoms::truefalse := false, 
+                        restRowNumers::truefalse := false, 
+                        tellFullrank::truefalse := false } )
+
+        # Compute a maximal-rank minor of a matrix via Gaussian elimination.
+        # A ... given matrix
+        # Named optional arguments: like MaxMinorElim, except tellFullrank 
+        # which is not allowed.
+        # Return isFullrank, output from MaxMinorElim; isFullrank is true iff A 
+        # has full rank is not empty.
+        MaxMinorElimFull( A::Matrix )
+
+        # Randomly instantiate a parametric matrix.M ... matrix with parametric 
+        # entries
+        # varLst ... list of variables in M
+        # Return M with parameters varLst randomly specialized.
+        InstantiateMatrix( M::Matrix, varLst )
+
+    # Versions of maximal minor with EDF computation (Early Detection of 
+    # Factors).
+    # EDF from: Lewis, Rober H., Heuristics to accelerate the Dixon resultant, 
+    # Mathematics and Computers in Simulation, 77, 4 (2008), 400-407All 
+    # functions work accordingly:
+    # Compute a maximal-rank minor of a matrix via Gaussian elimination.
+    # A ... given matrix
+    # Return a maximal-rank minor of A.
+    # Author: Manfred Minimair
+    # E-mail: manfred@minimair.org
+    # Released under GPL Version 3
+    # Copyright (C) Manfred Minimair, 2015
+    module EDF:
+
+        ColNumers( A )
+
+        ColDenoms( A )
+
+        Col( A )
+
+        PivotRowNumers( A )
+
+        PivotRowDenoms( A )
+
+        PivotRow( A )
+
+        ColPivotRow( A )
+
+        Row( A )
+
+        ColRow( A )
+
+        RowFull( A )
+
+        ColRowFull( A )
+
+        PivotRowFull( A )
+
+        ColPivotRowFull( A )
+
+    # Versions of Dixon resultant computation.
+    # All functions work accordingly:
+    #  pols ... list of (d+1) polynomials
+    #  vars ... list d variables of pols measures ... output parameter, a 
+    # table. If measures is a name then a table will be assigned to it. If 
+    # measures is undefined then no timing will be produced.
+    #  Return the Dixon resultant of pols.
+    #  If randomized maximal-rank submatrix extraction is used, it is possible, 
+    # however extremely unlikely, that Dixon resultant computation fails.
+    #  In this case, the computation terminates with an error message 
+    # indicating to run the computation again or not to use randomized 
+    # maximal-rank submatrix extraction.
+    # Author: Manfred Minimair
+    # E-mail: manfred@minimair.org
+    # Released under GPL Version 3
+    # Copyright (C) Manfred Minimair, 2015
+    module DRes:
+
+        # Compose a function that computes the Dixon resultant.
+        # extractor ... function, with Dixon matrix input, to extract the Dixon 
+        # resultant, or list of functions that will be composed
+        # measures ... output parameter, a table. If measures is a name then a 
+        # table will be assigned to it. If measures is undefined then no timing 
+        # will be produced.
+        # Return the timed Dixon resultant function.
+        ComposeDixon( extractor := Extract:-MaxMinorElim, 
+                      { measures_::{name, table, undefined} := undefined } )
+
+        # Gaussian elimination based minor extraction.
+        MaxMinor( pols::list(polynom), vars::list(symbol), 
+                  measures::{name, table, undefined} := undefined )
+
+        # Maximal-rank submatrix extraction and MaxMinor function.
+        RankMaxMinor( pols::list(polynom), vars::list(symbol), 
+                      measures::{name, table, undefined} := undefined )
+
+        # Maximal-rank submatrix extraction and Maple determinant function.
+        RankMapleDet( pols::list(polynom), vars::list(symbol), 
+                      measures::{name, table, undefined} := undefined )
+
+        # Maximal-rank submatrix extraction and Maple determinant function with 
+        # PreEDF.
+        RankFactorsMapleDet( pols::list(polynom), vars::list(symbol), 
+                             measures::{name, table, undefined} := undefined )
+
+        # Gaussian elimination based minor extraction with ColNumersFactors 
+        # detection.
+        MaxMinorColNumers( pols::list(polynom), vars::list(symbol), 
+                           measures::{name, table, undefined} := undefined )
+
+        # Gaussian elimination based minor extraction with ColDenomsFactors 
+        # detection.
+        MaxMinorColDenoms( pols::list(polynom), vars::list(symbol), 
+                           measures::{name, table, undefined} := undefined )
+
+        # Gaussian elimination based minor extraction with ColDenomsFactors 
+        # detection.
+        MaxMinorCol( pols::list(polynom), vars::list(symbol), 
+                     measures::{name, table, undefined} := undefined )
+
+        # Gaussian elimination based minor extraction with 
+        # PivotRowNumersFactors detection.
+        MaxMinorPivotRowNumers( pols::list(polynom), vars::list(symbol), 
+                                measures::{name, table, undefined} := undefined
+                              )
+
+        # Gaussian elimination based minor extraction with 
+        # PivotRowDenomsFactors detection.
+        MaxMinorPivotRowDenoms( pols::list(polynom), vars::list(symbol), 
+                                measures::{name, table, undefined} := undefined
+                              )
+
+        # Gaussian elimination based minor extraction with 
+        # PivotRowNumersFactors and PivotRowDenomsFactors detection.
+        MaxMinorPivotRow( pols::list(polynom), vars::list(symbol), 
+                          measures::{name, table, undefined} := undefined )
+
+        # Gaussian elimination based minor extraction with ColNumersFactors, 
+        # ColDenomsFactors, PivotRowNumersFactors and PivotRowDenomsFactors 
+        # detection.
+        MaxMinorColPivotRow( pols::list(polynom), vars::list(symbol), 
+                             measures::{name, table, undefined} := undefined )
+
+        # Gaussian elimination based minor extraction with ColNumersFactors, 
+        # ColDenomsFactors, PivotRowNumersFactors and PivotRowDenomsFactors 
+        # detection.
+        MaxMinorColRow( pols::list(polynom), vars::list(symbol), 
+                        measures::{name, table, undefined} := undefined )
+
+        # Gaussian elimination based minor extraction with 
+        # Pivot/RestRowNumersFactors and Pivo/ResttRowDenomsFactors detection 
+        # on RankSubMatrix
+        RankRow( pols::list(polynom), vars::list(symbol), 
+                 measures::{name, table, undefined} := undefined )
+
+        # Gaussian elimination based minor extraction with ColNumersFactors, 
+        # ColDenomsFactors, Pivot/RestRowNumersFactors and 
+        # Pivot/RestRowDenomsFactors detection on RankSubMatrix.
+        RankColRow( pols::list(polynom), vars::list(symbol), 
+                    measures::{name, table, undefined} := undefined )
+
+        # Maximal-rank submatrix extraction and MaxMinor function with 
+        # PivotRowFactors detection.
+        RankMaxMinorPivotRow( pols::list(polynom), vars::list(symbol), 
+                              measures::{name, table, undefined} := undefined )
+
+        # Maximal-rank submatrix extraction and MaxMinor function with 
+        # Col/PivotRowFactors detection.
+        RankMaxMinorColPivotRow( pols::list(polynom), vars::list(symbol), 
+                                 measures::{name, table, undefined} := 
+                                   undefined
+                               )
+
+        # Return the first argument passed to the function.
+        GetFirst( )
+
+        # Detect failure case.
+        # msg ... error message
+        # Return rest arguments or, if msg is a non-empty string with the error 
+        # message msg.
+        DetectFail( msg::string )
+
+    # Generate polynomials.
+    # Author: Manfred Minimair
+    # E-mail: manfred@minimair.org
+    # Released under GPL Version 3
+    # Copyright (C) Manfred Minimair, 2015
+    module GenPoly:
+
+        # Random parametric total-degree integer polynomial.
+        # deg ... total degree or list of total degrees
+        # vars ... list of variables
+        # paramDeg ... total degree of the coefficient polynomials in the 
+        # parameters
+        # params ... list of parameters
+        # sparse ... if true generate sparse polynomials and sparse parametric 
+        # coefficients; otherwise dense.Return a random dense integer 
+        # polynomial of total degree deg, or a list of such polynomials if deg 
+        # is a list with corresponding degrees. The degrees of the parameters 
+        # are of total degree paramDeg. If parmDeg=0 or params=[] then create 
+        # random ineger coefficients.
+        RandParamTotalDeg( deg::{integer, list(integer)}, vars::list, 
+                           paramDeg::integer, params::list, 
+                           { sparse::truefalse := true } )
+
+        # Random dense parametric multi-degree integer polynomial.
+        # degs ... multi-degree list or list of multi-degree lists
+        # vars ... list of variables
+        # paramDeg ... total degree of the coefficient polynomials in the 
+        # parameters
+        # params ... list of parameters
+        # Return a random dense integer polynomial of multi-degree degs, or a 
+        # list of such polynomials if degs is a list with corresponding 
+        # multi-degrees. The degrees of the parameters are of total degree 
+        # paramDeg. If parmDeg=0 or params=[] then create random ineger 
+        # coefficients.
+        RandParamMultiDeg( degs, vars, paramDeg, params ) :: polynom
+
+    # Collection of sample polynomial systems.
+    # To iterate over repo use: for sys in op(op(repo)) do ... Get(lhs(sys)) 
+    # ... end do
+    # or iterator over the list Available()
+    # Author: Manfred Minimair
+    # E-mail: manfred@minimair.org
+    # Released under GPL Version 3
+    # Copyright (C) Manfred Minimair, 2015
+    module Samples:
+
+        # Retrieve a polynomial system for use in Dixon resultant computation
+        # Return name, system, degrees, variables, param degree, parameters
+        Get( sysName::string )
+
+        repo::table = ...
+
+        # List names of available sample systems.
+        # paramters are sequence of arbitrary strings; list of names of systems 
+        # to be considered; if undefined, then consider all in repo
+        # include ... list of names of systems or single name to be considered; 
+        # if undefined, then consider all in repo
+        # exclude ... list of names of systems to be excluded be default
+        # Return a list of system names available.
+        Available( { exclude::list(string) := [], 
+                     include::{string, undefined, list(string)} := undefined }
+                 ) :: list
+
+</Text-field>
+</Output>
+</Group>
+<Group labelreference="L31" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+<Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2I1EhRicvJStmb3JlZ3JvdW5kR1EoWzAsMCwwXUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L9" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+</Group>
+<Group labelreference="L10" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+</Group>
+</Worksheet>

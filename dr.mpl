@@ -8,13 +8,13 @@ DR := module()
 
   export DixonResultant, DixonPolynomial, DixonMatrix, RankSubMatrix, DixonExtract, 
 	 #Sub-modules
-	 Info, Extract, EDF, DRes, GenPoly, Samples;
+	 Info, Extract, DF, DRes, GenPoly, Samples;
 
   local MonomialCoeff, PolynomialToMatrix;
 
   description 
   "Dixon Resultant Computation.", 
-  "Date: 12/18/15, Version 2.0",
+  "Date: 10/9/15, Version 2.1",
   "Author: Manfred Minimair",
   "Additional contributors: Arthur Cherba, Hoon Hong",
   "E-mail: manfred@minimair.org",
@@ -777,7 +777,7 @@ DR := module()
         "If tellFullrank is false then lowerRank is empty and any maximal minor is returned.";
 	#Original version: Hoon Hong (procedure drsm).
 	#Modified: M. Minimair, 5/19/2015
-	#          Various EDF options and other added.
+	#          Various options added, such as factor detection (DF) during elimination.
 
         #print([_options]);
 
@@ -839,12 +839,12 @@ DR := module()
 	    printf("  %a: Working on column %d................\n", procname, c);
 	  end if;
 
-	  # Column numerator EDF
+	  # Column numerator DF
 	  if colNumers then
 	    d := ColNumersFactors(B, d, r, n, c, m);
 	  end if;
 
-	  # Column denominator EDF
+	  # Column denominator DF
 	  if colDenoms then
 	    d := ColDenomsFactors(B, d, r, n, c, m);
 	  end if;
@@ -870,22 +870,22 @@ DR := module()
 	  end if;
           # r is the row and c is the column index of the pivot
 	 
-	  # Pivot row numerator EDF
+	  # Pivot row numerator DF
 	  if pivotRowNumers then
 	    d := RowNumersFactors(B, d, r, r, c, m);
 	  end if;
 
-	  # Pivot row denominator EDF
+	  # Pivot row denominator DF
 	  if pivotRowDenoms then
 	    d := RowDenomsFactors(B, d, r, r, c, m);
 	  end if;
 
-	  # Rest row numerator EDF
+	  # Rest row numerator DF
 	  if restRowNumers then
 	    d := RowNumersFactors(B, d, r+1, n, c, m);
 	  end if;
 
-	  # Rest row denominator EDF
+	  # Rest row denominator DF
 	  if restRowDenoms then
 	    d := RowDenomsFactors(B, d, r+1, n, c, m);
 	  end if;
@@ -924,12 +924,12 @@ DR := module()
     end module;
 
     ###########################################################################################################################
-    EDF := module()
+    DF := module()
       export ColNumers, ColDenoms, Col, PivotRowNumers, PivotRowDenoms, PivotRow, ColPivotRow, Row, ColRow,
              RowFull, ColRowFull, PivotRowFull, ColPivotRowFull;
       description 
-      "Versions of maximal minor with EDF computation (Early Detection of Factors).",
-      "EDF from: Lewis, Rober H., Heuristics to accelerate the Dixon resultant, Mathematics and Computers in Simulation, 77, 4 (2008), 400-407"
+      "Versions of maximal minor with factor computation during elimination. DF = Factor Detection",
+      "See also: Lewis, Rober H., Heuristics to accelerate the Dixon resultant, Mathematics and Computers in Simulation, 77, 4 (2008), 400-407"
       "All functions work accordingly:",
       "Compute a maximal-rank minor of a matrix via Gaussian elimination.",
       "A ... given matrix",
@@ -1045,7 +1045,7 @@ DR := module()
 
       RankFactorsMapleDet := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
-	"Maximal-rank submatrix extraction and Maple determinant function with PreEDF.";
+	"Maximal-rank submatrix extraction and Maple determinant function with PreDF.";
 	return ComposeDixon(Extract:-MapleDet, Extract:-DetectFactors, Extract:-RankSubMatrix, measures_=measures)(pols, vars);
       end proc;
 
@@ -1053,84 +1053,84 @@ DR := module()
       MaxMinorColNumers := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
 	"Gaussian elimination based minor extraction with ColNumersFactors detection.";
-	return ComposeDixon(EDF:-ColNumers, measures_=measures)(pols, vars);
+	return ComposeDixon(DF:-ColNumers, measures_=measures)(pols, vars);
       end proc;
 
 
       MaxMinorColDenoms := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
 	"Gaussian elimination based minor extraction with ColDenomsFactors detection.";
-	return ComposeDixon(EDF:-ColDenoms, measures_=measures)(pols, vars);
+	return ComposeDixon(DF:-ColDenoms, measures_=measures)(pols, vars);
       end proc;
 
 
       MaxMinorCol := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
 	"Gaussian elimination based minor extraction with ColDenomsFactors detection.";
-	return ComposeDixon(EDF:-Col, measures_=measures)(pols, vars);
+	return ComposeDixon(DF:-Col, measures_=measures)(pols, vars);
       end proc;
 
 
       MaxMinorPivotRowNumers := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
 	"Gaussian elimination based minor extraction with PivotRowNumersFactors detection.";
-	return ComposeDixon(EDF:-PivotRowNumers, measures_=measures)(pols, vars);
+	return ComposeDixon(DF:-PivotRowNumers, measures_=measures)(pols, vars);
       end proc;
 
 
       MaxMinorPivotRowDenoms := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
 	"Gaussian elimination based minor extraction with PivotRowDenomsFactors detection.";
-	return ComposeDixon(EDF:-PivotRowDenoms, measures_=measures)(pols, vars);
+	return ComposeDixon(DF:-PivotRowDenoms, measures_=measures)(pols, vars);
       end proc;
 
 
       MaxMinorPivotRow := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
 	"Gaussian elimination based minor extraction with PivotRowNumersFactors and PivotRowDenomsFactors detection.";
-	return ComposeDixon(EDF:-PivotRow, measures_=measures)(pols, vars);
+	return ComposeDixon(DF:-PivotRow, measures_=measures)(pols, vars);
       end proc;
 
 
       MaxMinorColPivotRow := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
 	"Gaussian elimination based minor extraction with ColNumersFactors, ColDenomsFactors, PivotRowNumersFactors and PivotRowDenomsFactors detection.";
-	return ComposeDixon(EDF:-ColPivotRow, measures_=measures)(pols, vars);
+	return ComposeDixon(DF:-ColPivotRow, measures_=measures)(pols, vars);
       end proc;
 
 
       MaxMinorColRow := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
 	"Gaussian elimination based minor extraction with ColNumersFactors, ColDenomsFactors, PivotRowNumersFactors and PivotRowDenomsFactors detection.";
-	return ComposeDixon(EDF:-ColRow, measures_=measures)(pols, vars);
+	return ComposeDixon(DF:-ColRow, measures_=measures)(pols, vars);
       end proc;
 
 
       RankRow := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
 	"Gaussian elimination based minor extraction with Pivot/RestRowNumersFactors and Pivo/ResttRowDenomsFactors detection on RankSubMatrix";
-	return ComposeDixon(EDF:-RowFull, Extract:-RankSubMatrix, measures_=measures)(pols, vars);
+	return ComposeDixon(DF:-RowFull, Extract:-RankSubMatrix, measures_=measures)(pols, vars);
       end proc;
 
 
       RankColRow := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
 	"Gaussian elimination based minor extraction with ColNumersFactors, ColDenomsFactors, Pivot/RestRowNumersFactors and Pivot/RestRowDenomsFactors detection on RankSubMatrix.";
-	return ComposeDixon(EDF:-ColRowFull, Extract:-RankSubMatrix, measures_=measures)(pols, vars);
+	return ComposeDixon(DF:-ColRowFull, Extract:-RankSubMatrix, measures_=measures)(pols, vars);
       end proc;
 
 
       RankMaxMinorPivotRow := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
 	"Maximal-rank submatrix extraction and MaxMinor function with PivotRowFactors detection.";
-	return ComposeDixon(EDF:-PivotRowFull, Extract:-RankSubMatrix, measures_=measures)(pols, vars);
+	return ComposeDixon(DF:-PivotRowFull, Extract:-RankSubMatrix, measures_=measures)(pols, vars);
       end proc;
 
 
       RankMaxMinorColPivotRow := proc(pols::list(polynom), vars::list(symbol), measures::{undefined, name, table}:=undefined)
 	description
 	"Maximal-rank submatrix extraction and MaxMinor function with Col/PivotRowFactors detection.";
-	return ComposeDixon(EDF:-ColPivotRowFull, Extract:-RankSubMatrix, measures_=measures)(pols, vars);
+	return ComposeDixon(DF:-ColPivotRowFull, Extract:-RankSubMatrix, measures_=measures)(pols, vars);
       end proc;
 
 
